@@ -157,7 +157,7 @@ nav {
     }
 
    .intLink {
-       text-decoration: none;
+       text-decoration: underline;
        color: #313639;
        cursor: pointer;
    }
@@ -194,7 +194,7 @@ nav {
     }
 
     .bodyScan {
-        text-decoration: none;
+        text-decoration: underline;
         cursor: pointer;
         color: #313639;
         font: 18px Helvetica;
