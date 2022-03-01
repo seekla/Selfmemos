@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+
+}
+
+
+nav {    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    min-height: 5vh;
+    position: sticky;
+    top: 0;
+    z-index: 350;
+    background: white;
+    
+     
+    }
+    
+    .navbar {
+        display: flex;
+        list-style-type: none;
+        background-color: white;
+        width: 80%;
+        justify-content: space-evenly;
+        padding: 0;
+       
+    }
+    
+    
+    body {
+        background-color: white;
+        overflow-x: hidden;
+    }
+    
+        
+    .a {
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: bold;
+        color: #181818;
+        
+    }
+    
+    .burger {
+        display: none;
+        cursor: pointer;
+    }
+    
+    .burger div {
+        width: 25px;
+        height: 2px;
+        background-color: #181818;
+        margin: 5px;
+    }
+    
+    
+    
+    @media screen and (max-width: 900px) {
+        .navbar {
+            position: fixed;
+            right: 0px;
+            height: 92vh;
+            top: 10.1vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            transform: translateX(100%); 
+            transition: transform 0.5s ease-in;
+            background-color: white;
+            padding-left: 0;
+            margin-left: 0;
+            z-index: 300;
+            
+        }
+    
+        .navItem {
+            opacity: 0;
+            
+        }
+    
+        nav {
+            z-index: 400;
+        }
+    
+       .a {
+           font-size: 20px;
+           
+       }
+    
+        .burger {
+            display: block;
+            
+            
+        }
+    
+    }
+    
+    .nav-active {
+        transform: translateX(0%);
+    }
+    
+    
+    @keyframes navLinkFade{
+        from{
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(50px);
+        }
+    }
+    
+    
+    
+    
+    /* https://www.youtube.com/watch?v=gXkqy0b4M5g */
+    
+    /* margin and padding for the stickynotes */
+    
+    * {
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .banner {
+        width: 100vw;
+        height: 60vh;
+    background-image: url("cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    }
+
+
+    .content {
+        margin: 15vw;
+    }
+
+.stress {
+    font: 20px Helvetica;
+    line-height: 2;
+    color: #313639;
+}
+
+.stressBody {
+    max-width: 100%;
+    height: auto;
+}
+
+   .stressBody:hover {
+
+       transform: scale(1.1);
+       
+   }
+
+  
+h1, h2 {
+    font-family: Helvetica;
+    color: #313639;
+}
+
+.stressImg {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0;
+    padding: 0;
+    grid-gap: 10px;
+    margin-top: 50px;
+    
+}
+
+.gbstress {
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+    
+}
+
+.img1 {
+    grid-row: 1;  
+    justify-self: center;
+}
+
+.img2 {
+    grid-row: 2;
+    justify-self: center;
+}
+
+@media screen and (max-width: 850px) {
+
+    .stressImg {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+        row-gap: 50px;
+    
+    }
+    
+    .gbstress {
+        width: 95%;
+        height: 95%;
+        object-fit: contain;
+    }
+    
+    .img1 {
+        grid-row: 1;
+
+    }
+    
+    .img2 {
+        grid-row: 2;
+       
+    }  
+
+    .stress {
+        font: 16px Helvetica;
+        line-height: 2;
+    }
+
+}
+
+.techniques {
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+.tech {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.footer {
+    font-size: 12px;
+    color: #313639;
+}
