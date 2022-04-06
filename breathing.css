@@ -5,6 +5,10 @@
 
 }
 
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
 
 nav {    
     display: flex;
@@ -29,16 +33,11 @@ nav {
        
     }
     
-    
-    body {
-        background-color: white;
-        overflow-x: hidden;
-    }
-    
         
     .a {
         text-decoration: none;
         letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 14px;
         font-weight: bold;
         color: #181818;
