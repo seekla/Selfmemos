@@ -8,6 +8,9 @@
 body {
     background-color: white;
     overflow-x: hidden;
+    background-image: url(background.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
 }
 
 
@@ -119,17 +122,19 @@ nav {
 
     .banner {
         width: 100vw;
-        height: 50vh;
-    background-image: url("spots.png");
-    background-size: cover;
+        height: 40vh;
+    background-image: url("medName.png");
+    background-size: 80vw;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
-    opacity: 50%;
+    opacity: 100%;
+   
     }
 
     .content {
-        margin: 10vw;
+        margin: 8vw;
+        
     }
 
     h1, h2 {
@@ -176,14 +181,22 @@ nav {
         }
     }
 
-    .one {
+    #content2 {
+    
+    background-image: url(med.png);
+    background-size: cover;
+    /*background-repeat: no-repeat; */
+   
+    }
+
+    /* .one {
         width: 100vw;
         height: 600px;
        background-image: url(med.png);
      background-size: cover;
     margin: 0;
     
-    }
+    } */
 
        
     .example {
@@ -208,6 +221,8 @@ nav {
             line-height: 1.5;
         }
     }
+
+
 
     .footer {
         font-size: 12px;

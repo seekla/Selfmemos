@@ -8,6 +8,9 @@
 body {
     background-color: white;
     overflow-x: hidden;
+    background-image: url(background.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
 }
 
 nav {    
@@ -117,13 +120,13 @@ nav {
 
     .banner {
         width: 100vw;
-        height: 50vh;
-    background-image: url("cover2.png");
-    background-size: fill;
-    background-repeat: repeat;
+        height: 40vh;
+    background-image: url("Breath.png");
+    background-size: 80vw;
+    background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
-   opacity: 60%;
+    opacity: 100%;
     }
 
     .content {

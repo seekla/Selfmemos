@@ -8,6 +8,9 @@
 body {
     background-color: white;
     overflow-x: hidden;
+    background-image: url(background.png);
+    background-size: 100vw;
+    background-repeat: repeat;
 }
 
 
@@ -127,17 +130,18 @@ nav {
 
     .banner {
         width: 100vw;
-        height: 60vh;
-    background-image: url("cover.png");
-    background-size: cover;
+        height: 40vh;
+    background-image: url("bannerStress.svg");
+    background-size: 80vw;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
+    opacity: 100%;
     }
 
 
     .content {
-        margin: 15vw;
+        margin: 8vw;
     }
 
 .stress {

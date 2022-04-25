@@ -8,6 +8,9 @@
 body {
     background-color: white;
     overflow-x: hidden;
+    background-image: url(background.png);
+    background-size: 100vw;
+    background-repeat: repeat;
 }
 
 nav {    
@@ -119,12 +122,14 @@ nav {
 
     .banner {
         width: 100vw;
-        height: 60vh;
-    background-image: url("posneg1.png");
-    background-size: cover;
+        height: 30vh;
+    background-image: url("TP.png");
+    background-size: 65vw;
     background-repeat: no-repeat;
     background-position: center;
-    margin-top: 50px;
+    margin-top: 70px;
+    opacity: 100%;
+   
     }
 
     .content {
