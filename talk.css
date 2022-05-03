@@ -8,7 +8,11 @@
 body {
     background-color: white;
     overflow-x: hidden;
+    background-image: url(background.png);
+    background-size: 100vw;
+    background-repeat: no-repeat;
 }
+
 
 nav {    
     display: flex;
@@ -33,7 +37,6 @@ nav {
        
     }
     
-        
     .a {
         text-decoration: none;
         letter-spacing: 1px;
@@ -115,12 +118,40 @@ nav {
         }
     }
 
+
+
+    .banner {
+        width: 100vw;
+        height: 40vh;
+    background-image: url("talk2.png");
+    background-size: 75vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    opacity: 100%;
+   
+    }
+
     .content {
-        margin: 10vw;
+        margin: 8vw;
     }
 
     h1, h2 {
         font-family: Helvetica;
-        padding-bottom: 20px;
-        
+        color: #313639;
+    }
+
+    .talk {
+        font: 20px Helvetica;
+        line-height: 2;
+        color: #313639;
+    }
+
+    .talkLi {
+        margin-left: 50px;
+    }
+
+    .footer {
+        font-size: 14px;
+        color: #313639;
     }

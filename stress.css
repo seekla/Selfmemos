@@ -119,20 +119,12 @@ nav {
         }
     }
     
-    
-    /* margin and padding for the stickynotes */
-    
-    * {
-        margin: 0;
-        padding: 0;
-        
-    }
 
     .banner {
         width: 100vw;
         height: 40vh;
-    background-image: url("bannerStress.svg");
-    background-size: 80vw;
+    background-image: url("bannerStress.png");
+    background-size: 65vw;
     background-repeat: no-repeat;
     background-position: center;
     margin-top: 50px;
@@ -244,6 +236,6 @@ h1, h2 {
 
 
 .footer {
-    font-size: 12px;
+    font-size: 14px;
     color: #313639;
 }

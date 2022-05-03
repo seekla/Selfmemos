@@ -166,6 +166,10 @@ nav {
        cursor: pointer;
    }
 
+   #Noting {
+       font-size: 18px;
+   }
+
     .list {
         font: 18px Helvetica;
         line-height: 2;
@@ -185,18 +189,8 @@ nav {
     
     background-image: url(med.png);
     background-size: cover;
-    /*background-repeat: no-repeat; */
    
     }
-
-    /* .one {
-        width: 100vw;
-        height: 600px;
-       background-image: url(med.png);
-     background-size: cover;
-    margin: 0;
-    
-    } */
 
        
     .example {
@@ -225,7 +219,7 @@ nav {
 
 
     .footer {
-        font-size: 12px;
+        font-size: 14px;
         color: #313639;
     }
 
