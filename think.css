@@ -132,6 +132,12 @@ nav {
    
     }
 
+    @media screen and (max-width: 600px) {
+        .banner {
+           background-size: 85vw;
+        }
+    }
+
     .content {
         margin: 10vw;
     }
