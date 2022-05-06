@@ -188,7 +188,7 @@ nav {
     }
 
     .tp {
-        width: 60%;
+        width: 50%;
     }
 
     .step4 {
@@ -200,6 +200,32 @@ nav {
     }
 
     @media screen and (max-width: 700px) {
+        .allNothing {
+            width: 75%;   
+        }
+    
+        .overGen {
+            width: 90%;
+        }
+    
+        .filter {
+            width: 90%;
+        }
+    
+        .disqualify {
+            width: 85%;
+        }
+    
+        .jump {
+            width: 85%;
+        }
+    
+        .tp {
+            width: 70%;
+        }
+
+
+
         .step4{
             font: 16px Helvetica;
             list-style-type: none;

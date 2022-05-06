@@ -147,12 +147,18 @@ nav {
     height: auto;
 }
 
+
    .stressBody:hover {
 
        transform: scale(1.1);
        
    }
 
+
+   .infoSource {
+       font-family: Helvetica;
+       font-size: 12px;
+   }
   
 h1, h2 {
     font-family: Helvetica;
