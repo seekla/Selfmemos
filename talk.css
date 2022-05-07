@@ -153,6 +153,15 @@ nav {
         color: #313639;
     }
 
+    @media screen and (max-width: 700px) {
+        .talk {
+            font: 16px Helvetica;
+            line-height: 2;
+            color: #313639;
+           
+        }
+    }
+
     .talkLi {
         margin-left: 50px;
     }
