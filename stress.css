@@ -253,3 +253,12 @@ h1, h2 {
     font-size: 14px;
     color: #313639;
 }
+
+@media screen and (max-width: 700px) {
+    .footer {
+        font-size: 12px;
+        color: #313639;
+        
+    }
+
+}
