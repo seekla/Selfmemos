@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
     background-image: url(background.png);
     background-size: 100vw;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 
