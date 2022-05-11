@@ -213,7 +213,7 @@ nav {
         line-height: 1.5;
     }
   
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 850px) {
         .bodyScan {
             font: 16px Helvetica;
             line-height: 2;
